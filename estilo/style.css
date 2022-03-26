@@ -147,9 +147,19 @@ aside {
 }
 
 div.video {
-    text-align: center;
-    margin: auto;
-    
+    background-color: #063d1e;
+    padding-bottom: 50%;
+    position: relative;
+    margin: 15px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 94%;
+    height: 90%;
+
 }
 aside > h3 {
     padding: 5px;
